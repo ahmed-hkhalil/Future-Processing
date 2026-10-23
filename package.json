@@ -36,7 +36,7 @@
     "@fullcalendar/timegrid": "^6.1.21",
     "@react-latest-ui/react-sticky-notes": "^0.2.6",
     "@reduxjs/toolkit": "^2.10.1",
-     "@tabler/icons-webfont": "^3.35.0",
+    "@tabler/icons-webfont": "^3.35.0",
     "@types/dragula": "^3.7.5",
     "@types/leaflet": "^1.9.21",
     "@types/react": "^19.2.17",
@@ -90,5 +90,10 @@
     "typescript-eslint": "^8.46.4",
     "vite": "^7.2.2",
     "yet-another-react-lightbox": "^3.25.0"
+  },
+  "allowScripts": {
+    "@parcel/watcher@2.6.0": true,
+    "esbuild@0.28.2": true,
+    "fsevents@2.3.3": true
   }
 }
