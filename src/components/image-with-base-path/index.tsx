@@ -13,7 +13,8 @@ interface Image {
 
 const ImageWithBasePath = (props: Image) => {
   // Combine the base path and the provided src to create the full image source URL
-  const fullSrc = `${image_path}${props.src}`;
+  const cleanSrc = props.src?.startsWith('/') ? props.src.slice(1) : (props.src || '');
+  const fullSrc = `${image_path}${cleanSrc}`;
   return (
     <img
       className={props.className}

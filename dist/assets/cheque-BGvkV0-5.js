@@ -1,1 +1,0 @@
-const s="/retail-pos/react/assets/cash-icon-BT1j_FoZ.svg",t="/retail-pos/react/assets/card-BzzrBEf7.svg",a="/retail-pos/react/assets/points-CtfS4AdT.svg",e="/retail-pos/react/assets/deposit-CWvzEdRr.svg",c="/retail-pos/react/assets/cheque-D5eKii0P.svg";export{t as a,c as b,s as c,e as d,a as p};
